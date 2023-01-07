@@ -4,12 +4,15 @@ import com.codeborne.selenide.Configuration
 import com.codeborne.selenide.Selenide
 import com.codeborne.selenide.logevents.SelenideLogger
 import io.qameta.allure.selenide.AllureSelenide
-import org.testng.annotations.*
-import static org.testng.Assert.*
+import org.testng.annotations.BeforeClass
+import org.testng.annotations.BeforeMethod
+import org.testng.annotations.Test
 
 import static com.codeborne.selenide.Condition.attribute
 import static com.codeborne.selenide.Condition.visible
-import static com.codeborne.selenide.Selenide.*
+import static com.codeborne.selenide.Selenide.$
+import static com.codeborne.selenide.Selenide.open
+import static org.testng.Assert.assertEquals
 
 class MainPageTest {
     MainPage mainPage = new MainPage()

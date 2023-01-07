@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.seleniumgroovygradletestng.MainPageTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-07T18:52:42" hostname="THARINDA" time="7.298">
+  <properties/>
+  <testcase name="navigationToAllTools" classname="com.example.seleniumgroovygradletestng.MainPageTest" time="1.271"/>
+  <testcase name="search" classname="com.example.seleniumgroovygradletestng.MainPageTest" time="3.437"/>
+  <testcase name="toolsMenu" classname="com.example.seleniumgroovygradletestng.MainPageTest" time="0.122"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO com.codeborne.selenide.impl.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 1 - let's create a new webdriver
+[Test worker] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: D:\selenium-groovy-gradle-testng\build\downloads\1673117553349_17288_1
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 108.0.5359.71 (resolved driver for Chrome 108)
+[Test worker] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as C:\Users\ASUS\.cache\selenium\chromedriver\win32\108.0.5359.71\chromedriver.exe
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 53213
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 08, 2023 12:22:36 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+[Test worker] INFO com.codeborne.selenide.webdriver.SelenideNettyClientFactory - Changed readTimeout from PT3M to PT1M30S
+Jan 08, 2023 12:22:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 104
+Jan 08, 2023 12:22:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 108 of 104
+[Test worker] INFO com.codeborne.selenide.webdriver.BrowserResizer - Set browser size to 1280x800
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=108.0.5359.125 Platform=WINDOWS
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 6.7.2
+[Test worker] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.4.0 build revision: e5c75ed026a
+[Test worker] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 1: ChromeDriver -> ChromeDriver: chrome on WINDOWS (229181b21efd16f389402e821062b739)
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=com.codeborne.selenide.impl.StaticConfig@4f0cdd0f,webDriver=ChromeDriver: chrome on WINDOWS (229181b21efd16f389402e821062b739),proxy=null,downloadsFolder=D:\selenium-groovy-gradle-testng\build\downloads\1673117553349_17288_1] in 1 [size=1]
+[Test worker] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 1 [size=1]
+]]></system-err>
+</testsuite>
